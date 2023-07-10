@@ -4,6 +4,9 @@
 
 **Description:** Coursera Assistant is a powerful browser extension specifically designed for the Coursera platform. This extension provides useful features to support you in completing assignments and grading quizzes on Coursera.
 
+![image](https://github.com/entyd1004/chrome-extension-coursera-assistant/assets/76547160/abe8c5e1-15eb-4eba-a862-3e2f39e111ff)
+
+
 ## Key Features:
 
 ### Scan Questions
