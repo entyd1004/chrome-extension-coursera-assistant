@@ -9,6 +9,12 @@
 
 
 ## Key Features:
+### Get Shareable Link
+
+- Get Submission Link: When users access an assignment page on Coursera, the extension automatically scans and looks for the unique identifier (ID) of the submitted assignment. This ID is usually visible on the page after the user has submitted the assignment.
+- Generate Shareable Link: After obtaining the ID of the submitted assignment, the extension creates a shareable link by combining the Coursera website's URL and the assignment's ID. This link directly points to the user's submitted assignment.
+- Display the Link: The generated shareable link is then displayed directly within the extension's interface, making it easily visible and accessible to the user.
+- Share with Others: Users can use the generated link to share their submitted assignments with others, such as friends, instructors, or colleagues. Sharing through this link saves time and is more convenient, avoiding the need to navigate complex steps on the Coursera website.
 
 ### Scan Questions
 
