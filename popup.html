@@ -20,14 +20,21 @@
                 <div class="title">COURSERA ASSISTANT</div>
             </header>
             <main class="main">
-                <div class="align-items-center d-flex justify-content-center">
-                    <button class="code mr-2" id="scanButton"><i class="fa fa-search mr-2"></i>SCAN QUESTION</button>
+                <div class="my-header">Get Shareable Link</div>
+                <div class="mb-2">
+                    <div class="input-group">
+                        <span id="copyButton" title="Copy to clipboard"><i class="fa fa-clipboard"></i></span>
+                        <input type="text" id="shareLink" class="form-control" value="No content">
+                    </div>
+                </div>
+                <div class="my-header">Get Question</div>
+                <div class="align-items-center d-flex justify-content-between mb-2">
+                    <button class="code" id="scanButton"><i class="fa fa-search mr-2"></i>SCAN QUESTION</button>
                     <button class="code" id="saveButton"><i class="fa fa-save mr-2"></i>SAVE QUIZ</button>
                 </div>
-                <div class="align-items-center d-flex justify-content-center mt-2">
+                <div class="align-items-center d-flex justify-content-center">
                     <button class="code" id="autoButton"><i class="fa fa-bolt mr-2"></i>AUTO GRADE</button>
                 </div>
-
             </main>
             <footer class="footer">
                 <div class="rounded-social-buttons">
@@ -40,6 +47,7 @@
         </div>
     </div>
     <script src="popup.js"></script>
+    <script src="getshareablelink.js"></script>
 </body>
 
 </html>

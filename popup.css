@@ -136,3 +136,36 @@ a {
     background: #fefefe;
     border-color: #000000;
 }
+
+#copyButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fafafa;
+    color: grey;
+    border: 1px solid linear-gradient(153deg, rgb(116, 56, 216), rgb(18, 150, 170) 74%);
+    width: 40px;
+    border-radius: 5px 0 0 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font: small Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+#copyButton:hover {
+    color: #fff;
+    background: linear-gradient(153deg, rgb(116, 56, 216), rgb(18, 150, 170) 74%);
+}
+
+#shareLink {
+    font-size: 15px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+}
+
+.my-header{
+    padding: 0.25rem;
+    margin-bottom: .5em;
+    background: linear-gradient(153deg, rgb(116, 56, 216), rgb(18, 150, 170) 74%);
+    border-radius: 5px;
+    font-weight: bold;
+}
